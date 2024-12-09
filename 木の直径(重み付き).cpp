@@ -1,4 +1,4 @@
-long long diameter(vector<vector<pair<int,ll>>>G){
+long long diameter(vector<vector<pair<int,long long>>>G){
 	vector<long long>vi(G.size(),-1),vi2(G.size(),-1);
 	queue<int>q;
 	q.push(0);
