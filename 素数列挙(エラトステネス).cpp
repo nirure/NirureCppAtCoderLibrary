@@ -1,7 +1,7 @@
 vector<long long> erat(int Max){
 	vector<long long>ans;
 	vector<bool>check(Max);
-	for(int i=2;i<Max;i++){
+	for(int i=2;i<=Max;i++){
 		if(check[i])continue;
 		else{
 			ans.push_back(i);
