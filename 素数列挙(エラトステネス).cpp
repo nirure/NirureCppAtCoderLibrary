@@ -5,7 +5,7 @@ vector<long long> erat(int Max){
 		if(check[i])continue;
 		else{
 			ans.push_back(i);
-			for(int j=i*2;j<Max;j+=i)check[j]=1;
+			for(int j=i*2;j<=Max;j+=i)check[j]=1;
 		}
 	}
 	return ans;
