@@ -1,4 +1,4 @@
-vector<ll> erat(int Max){
+vector<long long> erat(int Max){
 	vector<ll>ans;
 	vector<bool>check(Max);
 	for(int i=2;i<Max;i++){
