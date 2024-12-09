@@ -1,6 +1,6 @@
 vector<long long> erat(int Max){
 	vector<long long>ans;
-	vector<bool>check(Max);
+	vector<bool>check(Max+1);
 	for(int i=2;i<=Max;i++){
 		if(check[i])continue;
 		else{
