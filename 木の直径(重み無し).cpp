@@ -27,6 +27,3 @@ int diameter(vector<vector<int>>G){
 	}
 	return *max_element(vi2.begin(),vi2.end());
 }
-int main(){
-	
-}
